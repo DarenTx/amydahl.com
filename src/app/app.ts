@@ -8,4 +8,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrl: './app.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class App {}
+export class App {
+  constructor() {
+    if (typeof window !== 'undefined') {
+      window.addEventListener('load', () => {
+        document.body.classList.add('bg-fade-in');
+        document.querySelector<HTMLElement>('.fade-in-bg')?.classList.add('bg-fade-in');
+      });
+    }
+  }
+}

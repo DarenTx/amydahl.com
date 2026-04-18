@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: inherit;
+  opacity: 0;
+  transition: opacity 2.5s ease;
+  pointer-events: none;
+}
+
+body.bg-fade-in::before {
+  opacity: 1;
+}
+
+.fade-in-bg {
+  opacity: 0;
+  transition: opacity 2.5s ease;
+}
+
+.fade-in-bg.bg-fade-in {
+  opacity: 1;
+}
