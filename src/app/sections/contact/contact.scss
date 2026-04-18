@@ -1,53 +1,29 @@
-.contact-block {
+.closing-quote-block {
   text-align: center;
-  padding-bottom: 0.7rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.8rem;
 }
 
-.contact-lead {
-  margin: 0.68rem 0 0;
-  font-size: clamp(1.12rem, 1.65vw, 1.48rem);
-  font-weight: 700;
-  color: #4a4f68;
+.closing-quote {
+  margin: 0 auto;
+  max-width: 680px;
+  padding: 0;
+
+  p {
+    font-family: 'Segoe Script', 'Brush Script MT', cursive;
+    font-size: clamp(1.15rem, 2vw, 1.6rem);
+    line-height: 1.65;
+    color: #3f4562;
+    margin: 0 0 0.9rem;
+  }
 }
 
-.email-btn {
-  margin-top: 0.8rem;
-  display: inline-block;
-  text-decoration: none;
-  background: linear-gradient(#4e93af, #3f7f9e);
-  border-radius: 7px;
-  border: 1px solid rgba(0, 0, 0, 0.18);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.14);
-  color: #eef8ff;
-  font-weight: 700;
-  font-size: clamp(1.08rem, 1.55vw, 1.4rem);
-  padding: 0.58rem 1.15rem;
-}
+.quote-attribution {
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  color: #777;
+  font-style: normal;
 
-.social-note {
-  margin: 0.88rem 0 0;
-  font-family: 'Segoe Script', 'Brush Script MT', cursive;
-  font-size: clamp(1.2rem, 1.7vw, 1.58rem);
-  color: #3f4562;
-}
-
-.social-row {
-  margin-top: 0.35rem;
-  display: flex;
-  justify-content: center;
-  gap: 0.56rem;
-}
-
-.social-row a {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  text-decoration: none;
-  color: #fff;
-  background: #c36f5d;
-  border: 1px solid rgba(0, 0, 0, 0.14);
+  cite {
+    font-style: italic;
+  }
 }
