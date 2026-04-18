@@ -1,0 +1,49 @@
+.three-col {
+  margin-top: 1.1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+app-paper-card {
+  padding: 0.95rem 0.95rem 0.85rem;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 2.05rem);
+  font-weight: 700;
+  padding-bottom: 0.44rem;
+  border-bottom: 1px dotted #b6b0a1;
+}
+
+ul {
+  margin: 0.45rem 0 0;
+  padding-left: 1.15rem;
+}
+
+li {
+  margin: 0.42rem 0;
+  line-height: 1.35;
+  font-size: clamp(1.08rem, 1.5vw, 1.48rem);
+  color: #3a415d;
+}
+
+li::marker {
+  color: #c06f5d;
+}
+
+.tint-warm {
+  background: var(--soft-sand);
+}
+
+.tint-cool {
+  background: var(--soft-blue);
+}
+
+@media (max-width: 1024px) {
+  .three-col {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,90 @@
+.top-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+app-paper-card.intro {
+  padding: 1.15rem 1.25rem 1.2rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+  font-size: clamp(2.35rem, 4.7vw, 3.95rem);
+  font-weight: 500;
+  line-height: 0.88;
+  color: #313954;
+}
+
+.tagline {
+  margin: 0.95rem auto 0;
+  padding-top: 0.7rem;
+  border-top: 2px solid #c9c4b9;
+  border-bottom: 2px solid #c9c4b9;
+  font-size: clamp(1.02rem, 2vw, 1.88rem);
+  font-weight: 700;
+  color: #bb6b59;
+}
+
+.quote {
+  margin: 0.82rem auto 0;
+  font-family: 'Segoe Script', 'Brush Script MT', cursive;
+  font-size: clamp(1.16rem, 1.85vw, 1.78rem);
+  color: #3d4260;
+}
+
+.cta-row {
+  margin-top: 0.95rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.58rem 1.28rem;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  color: #f4fbff;
+  font-size: 1.32rem;
+  font-weight: 700;
+  line-height: 1.1;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.17);
+}
+
+.btn-blue {
+  background: linear-gradient(#4d92af, #3f809f);
+}
+
+.btn-coral {
+  background: linear-gradient(#ce7a64, #bd6c57);
+}
+
+app-photo-card.hero-photo-frame {
+  min-height: 255px;
+}
+
+@media (max-width: 1024px) {
+  .top-grid {
+    grid-template-columns: 1fr;
+  }
+
+  app-photo-card.hero-photo-frame {
+    min-height: 305px;
+  }
+}
+
+@media (max-width: 760px) {
+  .tagline {
+    font-size: 1.32rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

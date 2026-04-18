@@ -1,0 +1,29 @@
+<section class="section-block">
+  <h2>What I Do</h2>
+  <div class="three-col">
+    <app-paper-card class="tint-warm">
+      <h3>Business &amp; Real Life</h3>
+      <ul>
+        @for (item of businessItems; track item) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+    </app-paper-card>
+    <app-paper-card class="tint-cool">
+      <h3>Fun Planner</h3>
+      <ul>
+        @for (item of funPlannerItems; track item) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+    </app-paper-card>
+    <app-paper-card class="tint-warm">
+      <h3>Problem Solver</h3>
+      <ul>
+        @for (item of problemSolverItems; track item) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+    </app-paper-card>
+  </div>
+</section>

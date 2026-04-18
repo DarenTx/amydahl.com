@@ -1,0 +1,176 @@
+[
+  {
+    "section": "Hero",
+    "content": [
+      { "text": "Amy Dahl", "type": "original" },
+      { "text": "Mom • Business Owner • Organizer of Fun Things", "type": "original" },
+      { "text": "I like things simple, a little clever, and actually useful.", "type": "original" }
+    ]
+  },
+  {
+    "section": "About Me",
+    "content": [
+      {
+        "text": "I'm Amy, based in Texas, juggling family, a small business, and whatever project I've decided to take on this week.",
+        "type": "original"
+      },
+      {
+        "text": "I like practical solutions, good ideas that don't require a ton of effort, and making things a little more fun than they need to be.",
+        "type": "original"
+      }
+    ]
+  },
+  {
+    "section": "Business & Real Life",
+    "content": [
+      { "text": "Co-own a small business", "type": "original" },
+      { "text": "Manage rental property", "type": "original" },
+      { "text": "Always finding the smartest way to do things", "type": "original" },
+      { "text": "Track income and expenses monthly", "type": "standard" },
+      { "text": "Research tax deductions for small business owners", "type": "standard" },
+      { "text": "Negotiate vendor contracts", "type": "standard" },
+      { "text": "Build relationships with local businesses", "type": "standard" },
+      { "text": "Set clear boundaries between work and home life", "type": "standard" },
+      { "text": "Review rental property maintenance schedules", "type": "standard" },
+      { "text": "Stay current on landlord-tenant laws", "type": "standard" },
+      { "text": "Automate recurring bill payments", "type": "standard" },
+      { "text": "Create a rainy-day fund for the business", "type": "standard" },
+      { "text": "Delegate tasks that don't need my direct attention", "type": "standard" },
+      { "text": "Pretend I know what 'synergy' means in meetings", "type": "funny" },
+      { "text": "Respond to emails with 'per my last email' energy", "type": "funny" },
+      { "text": "Add 'LLC' to my name and feel instantly more important", "type": "funny" },
+      { "text": "Spend 45 minutes on a task I said would take 10", "type": "funny" },
+      { "text": "Call scrolling LinkedIn 'market research'", "type": "funny" }
+    ]
+  },
+  {
+    "section": "Fun Planner",
+    "content": [
+      { "text": "Creative events & theme parties", "type": "original" },
+      { "text": "Adult Easter egg hunts", "type": "original" },
+      { "text": "\"Optional fun\" is my specialty", "type": "original" },
+      { "text": "Coordinate group costume themes for Halloween", "type": "standard" },
+      { "text": "Plan seasonal outdoor movie nights", "type": "standard" },
+      { "text": "Organize neighborhood block parties", "type": "standard" },
+      { "text": "Design scavenger hunts for mixed-age groups", "type": "standard" },
+      { "text": "Source unique party favors that people actually keep", "type": "standard" },
+      { "text": "Build itineraries for weekend trips", "type": "standard" },
+      { "text": "Set up DIY photo booths with props", "type": "standard" },
+      { "text": "Curate event playlists by vibe and energy level", "type": "standard" },
+      { "text": "Plan surprise celebrations for friends and family", "type": "standard" },
+      { "text": "Create game brackets for friendly tournaments", "type": "standard" },
+      { "text": "Convince adults that pin-the-tail-on-the-donkey is still fun", "type": "funny" },
+      { "text": "Make themed charcuterie boards and call it 'catering'", "type": "funny" },
+      { "text": "Send Evites and act shocked when people don't RSVP", "type": "funny" },
+      { "text": "Plan a 'low-key' gathering that somehow involves a fog machine", "type": "funny" },
+      {
+        "text": "Turn any ordinary Tuesday into an occasion with the right playlist",
+        "type": "funny"
+      }
+    ]
+  },
+  {
+    "section": "Problem Solver",
+    "content": [
+      { "text": "Finances & logistics", "type": "original" },
+      { "text": "\"There's gotta be an easier way\" mindset", "type": "original" },
+      { "text": "Break big problems into smaller, actionable steps", "type": "standard" },
+      { "text": "Research at least three options before deciding", "type": "standard" },
+      { "text": "Ask 'what's the worst that could happen?' and plan for it", "type": "standard" },
+      { "text": "Look for free or low-cost alternatives first", "type": "standard" },
+      { "text": "Reverse-engineer a solution from the desired outcome", "type": "standard" },
+      { "text": "Simplify processes that have too many unnecessary steps", "type": "standard" },
+      { "text": "Identify the root cause before jumping to solutions", "type": "standard" },
+      { "text": "Build systems that prevent problems from recurring", "type": "standard" },
+      { "text": "Crowd-source ideas from people who've solved it before", "type": "standard" },
+      { "text": "Document solutions so they don't have to be re-solved", "type": "standard" },
+      {
+        "text": "Google it, then Google it differently when the first answer is wrong",
+        "type": "funny"
+      },
+      {
+        "text": "Sleep on it — sometimes the answer is just 'tomorrow Amy's problem'",
+        "type": "funny"
+      },
+      { "text": "Make a pros and cons list, then ignore it and go with your gut", "type": "funny" },
+      {
+        "text": "Explain the problem out loud to someone who doesn't care and solve it yourself",
+        "type": "funny"
+      },
+      { "text": "Buy the organizing bins before figuring out what to put in them", "type": "funny" }
+    ]
+  },
+  {
+    "section": "My Current Projects",
+    "content": [
+      { "text": "Planning the next themed party", "type": "original" },
+      { "text": "Researching business tips", "type": "original" },
+      { "text": "Helping the family with life stuff", "type": "original" },
+      { "text": "Latest deep dive: Picking the best mattress", "type": "original" },
+      { "text": "Researching the best robot vacuum for pet hair", "type": "standard" },
+      { "text": "Organizing the family photo archive", "type": "standard" },
+      { "text": "Finding a budgeting system that actually sticks", "type": "standard" },
+      { "text": "Planning a summer road trip itinerary", "type": "standard" },
+      { "text": "Testing meal prep strategies for busy weeks", "type": "standard" },
+      { "text": "Building a gift idea list for the whole family", "type": "standard" },
+      { "text": "Decluttering one room at a time", "type": "standard" },
+      { "text": "Learning the basics of home maintenance", "type": "standard" },
+      { "text": "Creating a household chores rotation chart", "type": "standard" },
+      { "text": "Comparing subscription services to cut costs", "type": "standard" },
+      { "text": "Starting a puzzle I'll abandon after 20 minutes", "type": "funny" },
+      { "text": "Reorganizing my junk drawer (again)", "type": "funny" },
+      { "text": "Watching YouTube tutorials for a project I'll never start", "type": "funny" },
+      {
+        "text": "Convincing myself that buying planners counts as being organized",
+        "type": "funny"
+      },
+      { "text": "Deep-diving into reviews for a $12 item for three days", "type": "funny" }
+    ]
+  },
+  {
+    "section": "Things I Believe",
+    "content": [
+      { "text": "Complicated plans are overrated", "type": "original" },
+      { "text": "Pinterest-perfect is not required", "type": "original" },
+      { "text": "If it's not fun, I'm not doing it", "type": "original" },
+      { "text": "There's always a shortcut", "type": "original" },
+      { "text": "Rest is productive", "type": "standard" },
+      { "text": "People are mostly doing their best", "type": "standard" },
+      { "text": "Systems beat willpower every time", "type": "standard" },
+      { "text": "You don't have to do it perfectly to do it well", "type": "standard" },
+      { "text": "Saying no is a complete sentence", "type": "standard" },
+      { "text": "Kindness is always the smarter move", "type": "standard" },
+      { "text": "A good playlist can fix almost any mood", "type": "standard" },
+      { "text": "Small, consistent effort beats big dramatic attempts", "type": "standard" },
+      { "text": "Helping people doesn't have to be complicated", "type": "standard" },
+      { "text": "Most things are fixable with enough time and snacks", "type": "standard" },
+      { "text": "Whoever invented the snooze button deserves a medal", "type": "funny" },
+      { "text": "Cheese makes everything better — this is not up for debate", "type": "funny" },
+      { "text": "The best meeting is a cancelled meeting", "type": "funny" },
+      {
+        "text": "Anyone who says 'it's not about the money' is lying a little bit",
+        "type": "funny"
+      },
+      { "text": "You can judge someone a tiny bit by how they treat waitstaff", "type": "funny" }
+    ]
+  },
+  {
+    "section": "Photo Highlights",
+    "content": [
+      { "text": "Family portrait in front of stone fireplace", "type": "original" },
+      { "text": "Family selfie together at home", "type": "original" },
+      { "text": "Family celebration with birthday cakes", "type": "original" },
+      { "text": "Family selfie outdoors under trees", "type": "original" },
+      { "text": "Playful party photo with colorful hats", "type": "original" },
+      { "text": "Family sharing a toast at dinner", "type": "original" },
+      { "text": "Family portrait on a couch", "type": "original" }
+    ]
+  },
+  {
+    "section": "Get In Touch",
+    "content": [
+      { "text": "Want an idea, help, or just ask \"How would you do this?\"", "type": "original" },
+      { "text": "Email me: amy@email.com", "type": "original" }
+    ]
+  }
+]

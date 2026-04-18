@@ -1,0 +1,19 @@
+<section class="split-block" id="projects">
+  <app-paper-card class="list-panel">
+    <h2>My Current Projects</h2>
+    <ul>
+      @for (item of projectItems; track item) {
+        <li>{{ item }}</li>
+      }
+    </ul>
+  </app-paper-card>
+
+  <app-paper-card class="list-panel belief-panel">
+    <h2>Things I Believe</h2>
+    <ul>
+      @for (item of beliefItems; track item) {
+        <li>{{ item }}</li>
+      }
+    </ul>
+  </app-paper-card>
+</section>

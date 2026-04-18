@@ -1,0 +1,51 @@
+.photo-grid {
+  margin-top: 1.05rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.65rem;
+}
+
+.large-wide {
+  grid-column: span 3;
+  min-height: 170px;
+}
+
+.medium-wide {
+  grid-column: span 3;
+  min-height: 170px;
+}
+
+.portrait-tile {
+  grid-column: span 3;
+  min-height: 170px;
+}
+
+.photo-grid app-photo-card:nth-child(n + 5) {
+  grid-column: span 4;
+}
+
+@media (max-width: 1024px) {
+  .large-wide,
+  .medium-wide,
+  .portrait-tile {
+    grid-column: span 6;
+    min-height: 225px;
+  }
+
+  .photo-grid app-photo-card:nth-child(n + 5) {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 760px) {
+  .large-wide,
+  .medium-wide,
+  .portrait-tile {
+    grid-column: span 12;
+    min-height: 230px;
+  }
+
+  .photo-grid app-photo-card:nth-child(n + 5) {
+    grid-column: span 12;
+  }
+}

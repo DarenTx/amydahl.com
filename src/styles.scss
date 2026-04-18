@@ -1,5 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* ── Shared utility classes ─────────────────────────────────────────────── */
+
+.paper-card {
+  background: var(--paper-panel);
+  border: 1px solid #e0dbd2;
+  box-shadow: 0 2px 9px var(--shadow);
+  border-radius: 4px;
+}
+
+.section-block {
+  margin-top: 1.35rem;
+  padding-top: 0.95rem;
+  border-top: 1px dashed #cfc8bc;
+}
+
+.section-block h2 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+  font-size: clamp(2.1rem, 3.65vw, 3.3rem);
+  font-weight: 500;
+  color: #333a57;
+  line-height: 0.9;
+}
+
+/* ── Body background fade ────────────────────────────────────────────────── */
+
 body::before {
   content: '';
   position: fixed;
